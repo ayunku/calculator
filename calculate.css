@@ -1,0 +1,89 @@
+.container{
+    margin: auto;
+    height: 500px;
+    max-width: 350px;
+    width: 100%;
+    background-color: black;
+    border-radius: 30px;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    border: 1px solid orangered;
+}
+.innercontainer{
+    height: 450px;
+    max-width: 300px;
+    width: 100%;
+    background-color: rgb(115, 103, 103);
+    border-radius: 20px;
+    margin: auto;
+    border: 1px solid orangered;
+}
+.screen{
+    width: 275px;
+    height: 55px;
+    background-color: rgb(60, 74, 74);
+    margin-top: 40px;
+    margin-left: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    max-width: 275px;
+}
+.mainscreen{
+    width: 260px;
+    height: 45px;
+    /* background-color: aqua; */
+    margin-top: 5px;
+    background-color: aliceblue;
+    margin-left: 2px;
+    border-radius: 10px;
+    max-width: 260px;
+
+}
+.screener{
+    text-align: center;
+    margin-top: 7px;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    max-width: 250px;
+    overflow: auto;
+}
+.reset{
+    margin-left: auto;
+    display: block;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    color: rgb(2, 25, 25);
+    border: none;
+    font-weight: 800;
+}
+.firstnumbergrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 10px;
+    column-gap: 10px;
+}
+.nomba{
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    font-weight: 900;
+    font-size: 20px;
+}
+.sign{
+    height: 54px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(235, 121, 14);
+    border: none;
+    font-weight: 900;
+    font-size: 20px;
+}
+.point{
+    /* font-size: 70px; */
+    font-weight: 900;
+}
